@@ -2,9 +2,9 @@ public class ArrayStructures{
 
 //    int[] theArray = {10, 3, 1, 7};
 
-    private int [] theArray = new int[4];
+    private int [] theArray = new int[50];
 
-    private int arraySize = 6;
+    private int arraySize = 10;
 
     public void generateRandomArray(){
 
