@@ -56,14 +56,21 @@ public class ArrayStructures{
 
         newArray.generateRandomArray();
 
+        long startTimeG = System.nanoTime();
         newArray.printArray();
+        long endTimeG = System.nanoTime();
+        System.out.println("Generating arrays took "+(endTimeG - startTimeG) + " milliseconds");
 
-        long startTime = System.nanoTime();
-        System.out.println(newArray.getValueOfIndex(2));
-        long endTime = System.nanoTime();
-        System.out.println("Finding index [2] took "+(endTime - startTime) + " milliseconds");
 
+        long startTimeI = System.nanoTime();
+        System.out.println(newArray.getValueOfIndex(9));
+        long endTimeI = System.nanoTime();
+        System.out.println("Finding index [2] took "+(endTimeI - startTimeI) + " milliseconds");
+
+        long startTimeV = System.nanoTime();
         System.out.println(newArray.doesFindThisValue(18));
+        long endTimeV = System.nanoTime();
+        System.out.println("Finding the value [18] took "+(endTimeV - startTimeV) + " milliseconds");
 
     }
 }
