@@ -15,16 +15,23 @@ public class ArrayStructures{
 
     public void printArray(){
 
-        System.out.println("----");
+        System.out.println("----------");
 
         for(int i = 0; i < arraySize; i++){
 
             System.out.print("| " + i + " | ");
             System.out.println(theArray[i] + " |");
-            System.out.println("----");
+            System.out.println("---------");
         }
     }
 
+    public int getValueOfIndex(int index){
+
+        if(index < arraySize) return theArray[index];
+
+        return 0;
+
+    }
 
     public static void main(String[] args){
 
@@ -33,5 +40,10 @@ public class ArrayStructures{
         newArray.generateRandomArray();
 
         newArray.printArray();
+
+        long startTime = System.nanoTime();
+        System.out.println(newArray.getValueOfIndex(2));
+        long endTime = System.nanoTime();
+        System.out.println("Finding index value of [2] took "+(endTime - startTime) + " milliseconds");
     }
 }
