@@ -30,6 +30,23 @@ public class ArrayStructures{
         if(index < arraySize) return theArray[index];
 
         return 0;
+    }
+
+    public boolean doesFindThisValue(int searchValue){
+
+        boolean valueInArray = false;
+
+        for(int i = 0; i < arraySize; i++){
+
+            if(theArray[i] == searchValue){
+
+                valueInArray = true;
+
+            }
+
+        }
+
+        return valueInArray;
 
     }
 
@@ -44,6 +61,9 @@ public class ArrayStructures{
         long startTime = System.nanoTime();
         System.out.println(newArray.getValueOfIndex(2));
         long endTime = System.nanoTime();
-        System.out.println("Finding index value of [2] took "+(endTime - startTime) + " milliseconds");
+        System.out.println("Finding index [2] took "+(endTime - startTime) + " milliseconds");
+
+        System.out.println(newArray.doesFindThisValue(18));
+
     }
 }
