@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="412f581a-fbab-4c73-8c9f-6c6c425e127d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="ArrayStructures.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="101" column="78" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
+            <state relative-caret-position="201">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -41,6 +39,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -176,6 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1544440032369</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding deletion of array by index 👨‍💻">
+      <created>1544623812715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544623812716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -189,7 +196,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="838" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -200,8 +206,8 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5012626" side_tool="true" weight="0.32923076" />
       <window_info anchor="right" id="Maven Projects" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49873737" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49873737" weight="0.32923076" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32923076" />
+      <window_info active="true" anchor="bottom" id="Version Control" sideWeight="0.49873737" visible="true" weight="0.32923076" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32923076" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.36306533" />
@@ -248,6 +254,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding deletion of array by index ‍" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding deletion of array by index ‍" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -309,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="101" column="78" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
+        <state relative-caret-position="201">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
