@@ -81,39 +81,39 @@ public class ArrayStructures{
 
         newArray.generateRandomArray();
 
-        long startTimeG = System.nanoTime();
+        long startTimeG = System.currentTimeMillis();
         newArray.printArray();
-        long endTimeG = System.nanoTime();
+        long endTimeG = System.currentTimeMillis();
         System.out.println("Generating arrays took "+(endTimeG - startTimeG) + " milliseconds");
 
-        long startTimeI = System.nanoTime();
+        long startTimeI = System.currentTimeMillis();
         System.out.println(newArray.getValueOfIndex(9));
-        long endTimeI = System.nanoTime();
-        System.out.println("Finding index [2] took "+(endTimeI - startTimeI) + " milliseconds");
+        long endTimeI = System.currentTimeMillis();
+        System.out.println("Finding index [9] took "+(endTimeI - startTimeI) + " milliseconds");
 
-        long startTimeV = System.nanoTime();
+        long startTimeV = System.currentTimeMillis();
         System.out.println(newArray.doesFindThisValue(18));
-        long endTimeV = System.nanoTime();
+        long endTimeV = System.currentTimeMillis();
         System.out.println("Finding the value [18] took "+(endTimeV - startTimeV) + " milliseconds");
 
-        long startTimeDI = System.nanoTime();
+        long startTimeDI = System.currentTimeMillis();
         newArray.deleteIndex(4);
-        long endTimeDI = System.nanoTime();
+        long endTimeDI = System.currentTimeMillis();
         System.out.println("Deleting index [4] took "+(endTimeDI - startTimeDI) + " milliseconds");
 
-        long startTimeD = System.nanoTime();
+        long startTimeD = System.currentTimeMillis();
         newArray.printArray();
-        long endTimeD = System.nanoTime();
+        long endTimeD = System.currentTimeMillis();
         System.out.println("New array after deletion "+(endTimeD - startTimeD) + " milliseconds");
 
-        long startTimeIV = System.nanoTime();
+        long startTimeIV = System.currentTimeMillis();
         newArray.insertValue(99);
-        long endTimeIV = System.nanoTime();
+        long endTimeIV = System.currentTimeMillis();
         System.out.println("Inserting new value into array took "+(endTimeIV - startTimeIV) + " milliseconds");
 
-        long startTimeAI = System.nanoTime();
+        long startTimeAI = System.currentTimeMillis();
         newArray.printArray();
-        long endTimeAI = System.nanoTime();
+        long endTimeAI = System.currentTimeMillis();
         System.out.println("New array after insert took "+(endTimeAI - startTimeAI) + " milliseconds");
 
 

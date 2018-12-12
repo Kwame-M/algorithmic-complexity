@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412f581a-fbab-4c73-8c9f-6c6c425e127d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/java/DrawGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.java" afterDir="false" />
@@ -19,8 +20,37 @@
       <file leaf-file-name="ArrayStructures.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+            <state relative-caret-position="1545">
+              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/DrawGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1530">
+              <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#3483#3484#0" expanded="true" />
+                <element signature="e#3535#3536#0" expanded="true" />
+                <element signature="e#4290#4291#0" expanded="true" />
+                <element signature="e#4340#4341#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawGraph.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/DrawGraph.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1203">
+              <folding>
+                <element signature="e#0#4342#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,16 +58,19 @@
       <file leaf-file-name="ArrayStructures.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="225">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="e#0#889#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TimeMillis</find>
+      <find>milli</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/java/test.java" />
         <option value="$PROJECT_DIR$/src/java/Graph.java" />
         <option value="$PROJECT_DIR$/src/java/ArrayStructures.java" />
+        <option value="$PROJECT_DIR$/src/java/SimpleGraph.java" />
       </list>
     </option>
   </component>
@@ -191,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544623824286</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inserting value after deletion in array 🕵️‍♂️">
+      <created>1544627613418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544627613418</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -266,7 +307,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding deletion of array by index ‍" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding deletion of array by index ‍" />
+    <MESSAGE value="Inserting value after deletion in array ️‍♂️" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserting value after deletion in array ️‍♂️" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -306,16 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#889#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/XYSeriesDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-209">
@@ -326,10 +358,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/SimpleGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#2314#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/DrawGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1203">
+          <folding>
+            <element signature="e#0#4342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/DrawGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#3483#3484#0" expanded="true" />
+            <element signature="e#3535#3536#0" expanded="true" />
+            <element signature="e#4290#4291#0" expanded="true" />
+            <element signature="e#4340#4341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+        <state relative-caret-position="1545">
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
         </state>
       </provider>
     </entry>
