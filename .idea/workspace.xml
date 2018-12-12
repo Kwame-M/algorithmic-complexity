@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="412f581a-fbab-4c73-8c9f-6c6c425e127d" name="Default" comment="" />
+    <list default="true" id="412f581a-fbab-4c73-8c9f-6c6c425e127d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +19,8 @@
       <file leaf-file-name="ArrayStructures.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="443">
+              <caret line="101" column="78" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -44,6 +48,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
         <option value="$PROJECT_DIR$/src/java/algorithmic.java" />
         <option value="$PROJECT_DIR$/src/java/test.java" />
+        <option value="$PROJECT_DIR$/src/java/Graph.java" />
         <option value="$PROJECT_DIR$/src/java/ArrayStructures.java" />
       </list>
     </option>
@@ -183,7 +188,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="834" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="838" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -199,7 +204,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32923076" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.36489898" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.36306533" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" order="4" weight="0.32967034" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
@@ -292,10 +297,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/XYSeriesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state relative-caret-position="443">
+          <caret line="101" column="78" selection-start-line="101" selection-start-column="78" selection-end-line="101" selection-end-column="78" />
         </state>
       </provider>
     </entry>

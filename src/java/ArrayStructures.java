@@ -43,11 +43,36 @@ public class ArrayStructures{
                 valueInArray = true;
 
             }
-
         }
 
         return valueInArray;
+    }
 
+    public void deleteIndex(int index){
+
+        if(index < arraySize){
+
+            for(int i = index; i < (arraySize - 1); i++){
+
+                theArray[i] = theArray[i+1];
+
+            }
+
+            arraySize--;
+
+        }
+
+    }
+
+    public void insertValue(int value){
+
+        if(arraySize < 50){
+
+            theArray[arraySize] = value;
+
+            arraySize++;
+
+        }
     }
 
     public static void main(String[] args){
@@ -61,7 +86,6 @@ public class ArrayStructures{
         long endTimeG = System.nanoTime();
         System.out.println("Generating arrays took "+(endTimeG - startTimeG) + " milliseconds");
 
-
         long startTimeI = System.nanoTime();
         System.out.println(newArray.getValueOfIndex(9));
         long endTimeI = System.nanoTime();
@@ -71,6 +95,16 @@ public class ArrayStructures{
         System.out.println(newArray.doesFindThisValue(18));
         long endTimeV = System.nanoTime();
         System.out.println("Finding the value [18] took "+(endTimeV - startTimeV) + " milliseconds");
+
+        long startTimeDI = System.nanoTime();
+        newArray.deleteIndex(4);
+        long endTimeDI = System.nanoTime();
+        System.out.println("Deleting index [4] took "+(endTimeDI - startTimeDI) + " milliseconds");
+
+        long startTimeD = System.nanoTime();
+        newArray.printArray();
+        long endTimeD = System.nanoTime();
+        System.out.println("New array after deletion "+(endTimeD - startTimeD) + " milliseconds");
 
     }
 }
