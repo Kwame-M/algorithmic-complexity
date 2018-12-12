@@ -106,5 +106,16 @@ public class ArrayStructures{
         long endTimeD = System.nanoTime();
         System.out.println("New array after deletion "+(endTimeD - startTimeD) + " milliseconds");
 
+        long startTimeIV = System.nanoTime();
+        newArray.insertValue(99);
+        long endTimeIV = System.nanoTime();
+        System.out.println("Inserting new value into array took "+(endTimeIV - startTimeIV) + " milliseconds");
+
+        long startTimeAI = System.nanoTime();
+        newArray.printArray();
+        long endTimeAI = System.nanoTime();
+        System.out.println("New array after insert took "+(endTimeAI - startTimeAI) + " milliseconds");
+
+
     }
 }

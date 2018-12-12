@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="412f581a-fbab-4c73-8c9f-6c6c425e127d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/ArrayStructures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ArrayStructures.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="ArrayStructures.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="550">
+              <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544623812716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding deletion of array by index 👨‍💻">
+      <created>1544623824286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544623824286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -319,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/ArrayStructures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="550">
+          <caret line="101" column="39" lean-forward="true" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
         </state>
       </provider>
     </entry>
