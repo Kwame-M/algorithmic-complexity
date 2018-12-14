@@ -64,6 +64,38 @@ public class ArrayStructures{
 
     }
 
+    public String linearSearchForValue(int value){
+
+        boolean valueInArray = false;
+
+        String indexsWithValue = "";
+
+        System.out.print("The Value was Found in the Following Indexes: ");
+
+        for(int i = 0; i < arraySize; i++){
+
+            if(theArray[i] == value) {
+                valueInArray = true;
+
+                System.out.print(i + " ");
+
+                indexsWithValue+= i + " ";
+            }
+
+        }
+
+        if(!valueInArray){
+            indexsWithValue = "None";
+
+            System.out.print(indexsWithValue);
+        }
+
+        System.out.println();
+
+        return indexsWithValue;
+
+    }
+
     public void insertValue(int value){
 
         if(arraySize < 50){
@@ -115,6 +147,11 @@ public class ArrayStructures{
         newArray.printArray();
         long endTimeAI = System.currentTimeMillis();
         System.out.println("New array after insert took "+(endTimeAI - startTimeAI) + " milliseconds");
+
+        long startTimeLS = System.currentTimeMillis();
+        newArray.linearSearchForValue(17);
+        long endTimeLS = System.currentTimeMillis();
+        System.out.println("Linear search took "+(endTimeLS - startTimeLS) + " milliseconds");
 
 
     }
